@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Kaushan+Script&family=Vollkorn&display=swap');
+
 ul{
     list-style-type: none;
     margin: 0;
@@ -16,8 +18,45 @@ li a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 35px;
+    font-family: 'Acme', sans-serif;
+}
+
+li.name a{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
 }
   
 li a:hover:not(.active){
-    background-color: coral;
+    background-color: whitesmoke;
+}
+
+li.name a:hover:not(.active){
+    background-color: white;
+}
+
+div.name{
+    font-family: 'Vollkorn', serif;
+    font-size: 40px;
+    padding-left: 16px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+
+div.intro1{
+    font-family: 'Vollkorn', serif;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-left: 16px;
+    font-weight: 300;
+}
+
+div.profiles{
+    padding-left: 16px;
+    padding-top: 30px;
+}
+
+div.intro{
+    padding-right: 40px;
+    float: left;
 }
