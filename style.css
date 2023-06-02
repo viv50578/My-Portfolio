@@ -61,6 +61,28 @@ div.intro{
     float: left;
 }
 
-div.skills{
+div.skills,.education,.projects,.experience,.accomplishments{
     padding-left: 16px;
+}
+
+div.kj,.pace,.dav{
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+}
+
+#kjlogo,#pacelogo,#davlogo{
+    float: left;
+    padding: 30px;
+}
+
+h2.kj1{
+    padding-top: 25px;
+} 
+
+h2.pace1{
+    padding-top: 20px;
+}
+
+h2.dav1{
+    padding-top: 30px;
 }
