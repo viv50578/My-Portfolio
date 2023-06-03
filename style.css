@@ -65,12 +65,12 @@ div.skills,.education,.projects,.experience,.accomplishments{
     padding-left: 16px;
 }
 
-div.kj,.pace,.dav{
+div.kj,.pace,.dav,.computerwerx{
     font-family: 'Vollkorn', serif;
     font-size: 20px;
 }
 
-#kjlogo,#pacelogo,#davlogo{
+#kjlogo,#pacelogo,#davlogo,#ComputerWerxlogo{
     float: left;
     padding: 30px;
 }
@@ -79,7 +79,7 @@ h2.kj1{
     padding-top: 25px;
 } 
 
-h2.pace1{
+h2.pace1,h2.computerwerx1{
     padding-top: 20px;
 }
 
