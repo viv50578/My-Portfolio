@@ -117,3 +117,11 @@ div.ach{
     padding-top: 20px;
     padding-right: 20px;
 }
+
+.dot{
+    height: 100px;
+    width: 100px;
+    background-color: lightpink;
+    border-radius: 75%;
+    display: inline-block;
+}
