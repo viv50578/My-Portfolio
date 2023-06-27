@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Kaushan+Script&family=Vollkorn&display=swap');
 
-ul{
+.nav{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -49,6 +49,19 @@ div.intro1{
     padding-top: 15px;
     padding-left: 16px;
     font-weight: 300;
+    text-align: justify;
+}
+
+.introline{
+    width: 50%;
+    padding-right: 50px;
+}
+
+.imageintro{
+    float: right;
+    width: 50%;
+    align-content: center;
+    padding-left: 30px;
 }
 
 div.profiles{
@@ -58,7 +71,7 @@ div.profiles{
 
 div.intro{
     padding-right: 40px;
-    float: left;
+    /* float: left; */
 }
 
 div.skills,.education,.projects,.experience,.accomplishments{
