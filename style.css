@@ -43,7 +43,12 @@ div.name{
     font-weight: 500;
 }
 
-div.intro1{
+.intro{
+    display: flex;
+    justify-content: space-around;
+}
+
+.intro1{
     font-family: 'Vollkorn', serif;
     font-size: 30px;
     padding-top: 15px;
@@ -52,30 +57,54 @@ div.intro1{
     text-align: justify;
 }
 
-.introline{
-    width: 50%;
-    padding-right: 50px;
+.flex1{
+    flex: 1;
 }
 
-.imageintro{
+.introline{
+    /* width: 50%;
+    padding-right: 50px;
+    float: left; */
+    margin-right: 50px;
+}
+
+/* .imageintro{
     float: right;
     width: 50%;
     align-content: center;
-    padding-left: 30px;
-}
+    padding-left: 20px;
+} */
 
 div.profiles{
     padding-left: 16px;
     padding-top: 30px;
 }
 
-div.intro{
-    padding-right: 40px;
-    /* float: left; */
+.fa{
+    font-size: 48px;
+    color: black
+}
+.fa-github,.fa-linkedin-square,.fa-hackerrank,.fa-square-instagram,.fa-envelope{
+    padding: 5px;
 }
 
-div.skills,.education,.projects,.experience,.accomplishments{
+.skills,.education,.projects,.experience,.accomplishments{
     padding-left: 16px;
+}
+
+.dot{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+.skillcircle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13%;
 }
 
 div.kj,.pace,.dav,.computerwerx{
@@ -100,15 +129,15 @@ h2.dav1{
     padding-top: 30px;
 }
 
-div.course1,.acc1,.course2,.course3{
+.box{
     font-family: 'Acme', sans-serif;
     font-size: x-large;
     color: black;
     float: left;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    padding: 1em;
-    width: 30%;
-    height: 200px;
+    padding: 2em;
+    width: 300px;
+    height: 300px;
     box-sizing: border-box;
     background-color: #e4e4d9;
 
@@ -126,15 +155,12 @@ div.course1,.acc1,.course2,.course3{
                       linear-gradient( 85deg, rgba(0,0,0,0) 80%, #74a6ae 80%);
 }
 
-div.ach{
-    padding-top: 20px;
-    padding-right: 20px;
+.accomplishments1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.dot{
-    height: 100px;
-    width: 100px;
-    background-color: lightpink;
-    border-radius: 75%;
-    display: inline-block;
+div.acc{
+    padding-top: 20px;
 }
