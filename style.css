@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Kaushan+Script&family=Vollkorn&display=swap');
 
+*{
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
 .nav{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: white;
+    background-color: black;
 }
   
 li{
@@ -14,7 +22,7 @@ li{
   
 li a{
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -27,12 +35,14 @@ li.name a{
     font-size: 40px;
 }
   
-li a:hover:not(.active){
-    background-color: whitesmoke;
+.nav li a:hover:not(.active){
+    background-color: #16F529;
+    color: black;
 }
 
 li.name a:hover:not(.active){
-    background-color: white;
+    background-color: black;
+    color: white;
 }
 
 div.name{
@@ -80,12 +90,19 @@ div.profiles{
     padding-top: 30px;
 }
 
-.fa{
-    font-size: 48px;
-    color: black
-}
 .fa-github,.fa-linkedin-square,.fa-hackerrank,.fa-square-instagram,.fa-envelope{
     padding: 5px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+}
+
+.skillimg{
+    margin-top: 17.5px;
+    margin-right: 50px;
+    margin-left: 45px;
 }
 
 .skills,.education,.projects,.experience,.accomplishments{
@@ -93,11 +110,21 @@ div.profiles{
 }
 
 .dot{
-    height: 100px;
-    width: 100px;
-    background-color: black;
+    height: 75px;
+    width: 75px;
+    background-color: white;
     border-radius: 100%;
     display: inline-block;
+}
+
+.dot1{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+.dot1 p{
+    text-align: center;
 }
 
 .skillcircle{
@@ -107,7 +134,7 @@ div.profiles{
     margin-top: 13%;
 }
 
-div.kj,.pace,.dav,.computerwerx{
+.kj,.pace,.dav,.computerwerx{
     font-family: 'Vollkorn', serif;
     font-size: 20px;
 }
@@ -129,10 +156,13 @@ h2.dav1{
     padding-top: 30px;
 }
 
+.box p{
+    color: black;
+}
+
 .box{
     font-family: 'Acme', sans-serif;
     font-size: x-large;
-    color: black;
     float: left;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     padding: 2em;
