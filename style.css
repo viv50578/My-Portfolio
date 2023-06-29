@@ -22,7 +22,7 @@ li{
   
 li a{
     display: block;
-    color: white;
+    color: #FFC0C0;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -33,6 +33,7 @@ li a{
 li.name a{
     font-family: 'Kaushan Script', cursive;
     font-size: 40px;
+    color: #FF8080;
 }
   
 .nav li a:hover:not(.active){
@@ -42,15 +43,16 @@ li.name a{
 
 li.name a:hover:not(.active){
     background-color: black;
-    color: white;
+    color: #FF8080;
 }
 
-div.name{
+.name1{
     font-family: 'Vollkorn', serif;
     font-size: 40px;
     padding-left: 16px;
     padding-top: 20px;
     font-weight: 500;
+    color: white;
 }
 
 .intro{
@@ -65,6 +67,7 @@ div.name{
     padding-left: 16px;
     font-weight: 300;
     text-align: justify;
+    color: white;
 }
 
 .flex1{
@@ -105,6 +108,11 @@ div.profiles{
     margin-left: 45px;
 }
 
+.h1head{
+    color: #40FFC0;
+    padding-left: 16px;
+}
+
 .skills,.education,.projects,.experience,.accomplishments{
     padding-left: 16px;
 }
@@ -134,26 +142,34 @@ div.profiles{
     margin-top: 13%;
 }
 
-.kj,.pace,.dav,.computerwerx{
+.education,.experience{
+    display: flex;
+    justify-content: space-around;
+}
+
+.kj,.pace,.dav{
     font-family: 'Vollkorn', serif;
     font-size: 20px;
+    border-style: solid;
+    border-color: #C0FF00;
+    padding: 10px 10px 10px 10px;
+    width: 30%;
+}
+.computerwerx{
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+    border-style: solid;
+    border-color: #C0FF00;
+    padding: 10px 10px 10px 10px;
+    width: 50%;
+}
+
+.edubox,.edubox li{
+    color: #80FFFF;
 }
 
 #kjlogo,#pacelogo,#davlogo,#ComputerWerxlogo{
-    float: left;
-    padding: 30px;
-}
-
-h2.kj1{
-    padding-top: 25px;
-} 
-
-h2.pace1,h2.computerwerx1{
-    padding-top: 20px;
-}
-
-h2.dav1{
-    padding-top: 30px;
+    padding: 10px;
 }
 
 .box p{
