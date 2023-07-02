@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Kaushan+Script&family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@600&family=Parisienne&display=swap');
 
 *{
     color: white;
@@ -209,4 +210,16 @@ div.profiles{
 
 div.acc{
     padding-top: 20px;
+}
+
+
+.loadimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.figname{
+    font-size: 40px;
+    font-family: 'Merienda', cursive;
 }
