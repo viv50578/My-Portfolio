@@ -9,6 +9,14 @@ body{
     background-color: black;
 }
 
+#preloader{
+    background: black url(https://cdn2.hubspot.net/hubfs/5342908/How_can_small_businesses_mitigate_information_security_risks_by.gif) no-repeat center center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
 .nav{
     list-style-type: none;
     margin: 0;
@@ -214,12 +222,15 @@ div.acc{
 
 
 .loadimg{
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 6em;
 }
 
 .figname{
     font-size: 40px;
     font-family: 'Merienda', cursive;
+    text-align: center;
+    color: #16F529;
 }
