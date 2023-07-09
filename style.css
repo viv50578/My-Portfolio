@@ -10,7 +10,7 @@ body{
 }
 
 #preloader{
-    background: black url(https://cdn2.hubspot.net/hubfs/5342908/How_can_small_businesses_mitigate_information_security_risks_by.gif) no-repeat center center;
+    background: black no-repeat center center;
     height: 100%;
     width: 100%;
     position: fixed;
