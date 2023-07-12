@@ -14,7 +14,7 @@ body{
     height: 100%;
     width: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 100;
 }
 
 .nav{
@@ -97,13 +97,31 @@ li.name a:hover:not(.active){
     padding-left: 20px;
 } */
 
-div.profiles{
+.profiles{
     padding-left: 16px;
     padding-top: 30px;
+    display: flex;
+    align-items: center;
 }
 
-.fa-github,.fa-linkedin-square,.fa-hackerrank,.fa-square-instagram,.fa-envelope{
-    padding: 5px;
+.circle{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.fa-github,.fa-linkedin,.fa-hackerrank,.fa-instagram,.fa-envelope{
+    /* padding: 5px; */
+    font-size: 48px;
+}
+
+.circle:hover{
+    background-color: #000000;
 }
 
 .skills{
