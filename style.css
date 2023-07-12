@@ -9,6 +9,10 @@ body{
     background-color: black;
 }
 
+a{
+    text-decoration: none;
+}
+
 #preloader{
     background: url(https://thumbs.gfycat.com/EagerGentleAxolotl-max-1mb.gif);
     height: 100%;
@@ -61,7 +65,7 @@ li.name a:hover:not(.active){
     padding-left: 16px;
     padding-top: 20px;
     font-weight: 500;
-    color: white;
+    color: #CCFF00;
 }
 
 .intro{
@@ -76,7 +80,7 @@ li.name a:hover:not(.active){
     padding-left: 16px;
     font-weight: 300;
     text-align: justify;
-    color: white;
+    color: #e0e097;
 }
 
 .flex1{
@@ -112,7 +116,7 @@ li.name a:hover:not(.active){
     align-items: center;
     justify-content: center;
     margin-right: 10px;
-    transition: background-color 0.3s;
+    /* transition: background-color 0.3s; */
 }
 
 .fa-github,.fa-linkedin,.fa-hackerrank,.fa-instagram,.fa-envelope{
@@ -120,9 +124,9 @@ li.name a:hover:not(.active){
     font-size: 48px;
 }
 
-.circle:hover{
+/* .circle:hover{
     background-color: #000000;
-}
+} */
 
 .skills{
     display: flex;
@@ -169,12 +173,12 @@ li.name a:hover:not(.active){
     margin-top: 13%;
 }
 
-.education,.experience{
+.education,.experience,.projects{
     display: flex;
     justify-content: space-around;
 }
 
-.kj,.pace,.dav{
+.kj,.pace,.dav,.pbj,.voice,.travel{
     font-family: 'Vollkorn', serif;
     font-size: 20px;
     border-style: solid;
@@ -182,6 +186,7 @@ li.name a:hover:not(.active){
     padding: 10px 10px 10px 10px;
     width: 30%;
 }
+
 .computerwerx{
     font-family: 'Vollkorn', serif;
     font-size: 20px;
@@ -195,7 +200,7 @@ li.name a:hover:not(.active){
     color: #80FFFF;
 }
 
-#kjlogo,#pacelogo,#davlogo,#ComputerWerxlogo{
+#logos{
     padding: 10px;
 }
 
