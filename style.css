@@ -181,14 +181,15 @@ li.name a:hover:not(.active){
     justify-content: space-around;
 }
 
-.kj,.pace,.dav,.pbj,.voice,.travel{
+.kj,.pace,.dav{
     font-family: 'Vollkorn', serif;
     font-size: 20px;
     border-style: solid;
     border-color: #C0FF00;
     padding: 10px 10px 10px 10px;
     width: 30%;
-    box-shadow: 10px 10px 5px #658601;
+    box-shadow: 6px 6px 5px #658601;
+    transition: all ease 0.2s;
 }
 
 .computerwerx{
@@ -198,7 +199,13 @@ li.name a:hover:not(.active){
     border-color: #C0FF00;
     padding: 10px 10px 10px 10px;
     width: 50%;
-    box-shadow: 10px 10px 5px #658601;
+    box-shadow: 6px 6px 5px #658601;
+    transition: all ease 0.2s;
+}
+
+.kj:hover,.pace:hover,.dav:hover,.computerwerx:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px #658601;
 }
 
 .edubox,.edubox li{
@@ -214,8 +221,19 @@ li.name a:hover:not(.active){
 }
 
 .pbj,.voice,.travel{
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+    border-style: solid;
     border-color: #c53afc;
-    box-shadow: 10px 10px 5px #712290;
+    box-shadow: 7.5px 7.5px 5px #712290;
+    padding: 10px 10px 10px 10px;
+    width: 30%;
+    transition: all ease 0.2s;
+}
+
+.pbj:hover,.voice:hover,.travel:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px #712290;
 }
 
 #logos{
@@ -236,7 +254,8 @@ li.name a:hover:not(.active){
     height: 300px;
     box-sizing: border-box;
     background-color: #e4e4d9;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0px 5px 10px 0px rgba(0,255,255,0.7);  
+    transition: all ease 0.2s;
 
     background-image: linear-gradient(175deg, rgba(0,0,0,0) 95%, #8da389 95%),
                       linear-gradient( 85deg, rgba(0,0,0,0) 95%, #8da389 95%),
@@ -250,6 +269,11 @@ li.name a:hover:not(.active){
                       linear-gradient( 85deg, rgba(0,0,0,0) 83%, #9f8fa4 83%),
                       linear-gradient(175deg, rgba(0,0,0,0) 70%, #74a6ae 70%),
                       linear-gradient( 85deg, rgba(0,0,0,0) 80%, #74a6ae 80%);
+}
+
+.box:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgba(0,255,255,0.7);
 }
 
 .accomplishments1{
