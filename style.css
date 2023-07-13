@@ -196,25 +196,11 @@ li.name a:hover:not(.active){
 
 .kj:hover,.pace:hover,.dav:hover{
     transform: translateY(-5px);
-    box-shadow: 0px 10px 20px 2px #658601;
+    box-shadow: 0px 10px 20px 2px #acdc1a;
 }
 
-.computerwerx{
-    font-family: 'Vollkorn', serif;
-    font-size: 20px;
-    border-style: solid;
-    border-color: #0080ff;
-    padding: 10px 10px 10px 10px;
-    width: 50%;
-    box-shadow: 6px 6px 5px #0256aa;
-    transition: all ease 0.2s;
-    background-color: #f9c5d1;
-    background-image: linear-gradient(120deg, #f9c5d1 0%, #9795ef 74%);
-}
-
-.computerwerx:hover{
-    transform: translateY(-5px);
-    box-shadow: 0px 10px 20px 2px #0256aa;
+.edubox{
+    color: #ae2cfe;
 }
 
 .pbj,.voice,.travel{
@@ -232,23 +218,37 @@ li.name a:hover:not(.active){
 
 .pbj:hover,.voice:hover,.travel:hover{
     transform: translateY(-5px);
-    box-shadow: 0px 10px 20px 2px #712290;
+    box-shadow: 0px 10px 20px 2px #a539cf;
 }
 
-.edubox{
-    color: #ae2cfe;
+.projectbox{
+    color: #ff46b8;
+}
+
+.computerwerx{
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+    border-style: solid;
+    border-color: #0080ff;
+    padding: 10px 10px 10px 10px;
+    width: 50%;
+    box-shadow: 6px 6px 5px #0256aa;
+    transition: all ease 0.2s;
+    background-color: #f9c5d1;
+    background-image: linear-gradient(120deg, #f9c5d1 0%, #9795ef 74%);
+}
+
+.computerwerx:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px #1f84ea;
+}
+
+.workbox{
+    color: #1589FF;
 }
 
 .edubox li,.projectbox li,.workbox li,h3.edubox,h3.workbox{
     color: black;
-}
-
-.projectbox{
-    color: #f8119f;
-}
-
-.workbox{
-
 }
 
 #logos{
