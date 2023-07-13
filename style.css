@@ -190,34 +190,31 @@ li.name a:hover:not(.active){
     width: 30%;
     box-shadow: 6px 6px 5px #658601;
     transition: all ease 0.2s;
+    background-color: #eec0c6;
+    background-image: linear-gradient(120deg, #eec0c6 0%, #7ee8fa 74%);
+}
+
+.kj:hover,.pace:hover,.dav:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px #658601;
 }
 
 .computerwerx{
     font-family: 'Vollkorn', serif;
     font-size: 20px;
     border-style: solid;
-    border-color: #C0FF00;
+    border-color: #0080ff;
     padding: 10px 10px 10px 10px;
     width: 50%;
-    box-shadow: 6px 6px 5px #658601;
+    box-shadow: 6px 6px 5px #0256aa;
     transition: all ease 0.2s;
+    background-color: #f9c5d1;
+    background-image: linear-gradient(120deg, #f9c5d1 0%, #9795ef 74%);
 }
 
-.kj:hover,.pace:hover,.dav:hover,.computerwerx:hover{
+.computerwerx:hover{
     transform: translateY(-5px);
-    box-shadow: 0px 10px 20px 2px #658601;
-}
-
-.edubox,.edubox li{
-    color: #80FFFF;
-}
-
-.projectbox{
-    color: #f8119f;
-}
-
-.projectbox li{
-    color: #fe62c2;
+    box-shadow: 0px 10px 20px 2px #0256aa;
 }
 
 .pbj,.voice,.travel{
@@ -225,15 +222,33 @@ li.name a:hover:not(.active){
     font-size: 20px;
     border-style: solid;
     border-color: #c53afc;
-    box-shadow: 7.5px 7.5px 5px #712290;
+    box-shadow: 6px 6px 5px #712290;
     padding: 10px 10px 10px 10px;
     width: 30%;
     transition: all ease 0.2s;
+    background-color: #bbff99;
+    background-image: linear-gradient(120deg, #bbff99 0%, #ffec99 37%, #ff9999 100%);
 }
 
 .pbj:hover,.voice:hover,.travel:hover{
     transform: translateY(-5px);
     box-shadow: 0px 10px 20px 2px #712290;
+}
+
+.edubox{
+    color: #ae2cfe;
+}
+
+.edubox li,.projectbox li,.workbox li,h3.edubox,h3.workbox{
+    color: black;
+}
+
+.projectbox{
+    color: #f8119f;
+}
+
+.workbox{
+
 }
 
 #logos{
