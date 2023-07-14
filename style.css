@@ -50,7 +50,7 @@ li.name a{
     text-shadow: 2px 2px 4px red;
 }
   
-.nav li a:hover:not(.active){
+.nav li a:hover{
     background-color: #16F529;
     color: black;
 }
@@ -72,6 +72,9 @@ li.name a:hover:not(.active){
 .intro{
     display: flex;
     justify-content: space-around;
+    flex-direction: row-reverse;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .intro1{
@@ -89,18 +92,8 @@ li.name a:hover:not(.active){
 }
 
 .introline{
-    /* width: 50%;
-    padding-right: 50px;
-    float: left; */
     margin-right: 50px;
 }
-
-/* .imageintro{
-    float: right;
-    width: 50%;
-    align-content: center;
-    padding-left: 20px;
-} */
 
 .profiles{
     padding-left: 16px;
