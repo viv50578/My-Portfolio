@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Kaushan+Script&family=Vollkorn&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@600&family=Parisienne&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@600&family=Parisienne&family=Roboto+Slab&family=Ubuntu&display=swap');
 
 *{
     color: white;
@@ -140,6 +140,21 @@ li.name a:hover:not(.active){
     margin-left: 45px;
 }
 
+.icontext{
+    font-family: 'Roboto Slab', serif;
+}
+
+.skillsicon{
+    flex: 1;
+    margin-right: 1.5em;
+    border-style: solid;
+    border-color: #73ff00;
+    padding: 10px 10px 10px 10px;
+    transition: all ease 0.2s;
+    background-color: #0d0a0b;
+    background-image: linear-gradient(315deg, #0d0a0b 0%, #009fc2 74%);
+}
+
 .h1head{
     color: #29fdb6;
     padding-left: 16px;
@@ -179,6 +194,7 @@ li.name a:hover:not(.active){
 .education,.experience,.projects{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .kj,.pace,.dav{
@@ -190,8 +206,10 @@ li.name a:hover:not(.active){
     width: 30%;
     box-shadow: 6px 6px 5px #658601;
     transition: all ease 0.2s;
-    background-color: #eec0c6;
-    background-image: linear-gradient(120deg, #eec0c6 0%, #7ee8fa 74%);
+    background-color: #7f53ac;
+    background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+    /* background-color: #eec0c6;
+    background-image: linear-gradient(120deg, #eec0c6 0%, #7ee8fa 74%); */
 }
 
 .kj:hover,.pace:hover,.dav:hover{
@@ -200,17 +218,18 @@ li.name a:hover:not(.active){
 }
 
 .edubox{
-    color: #ae2cfe;
+    color: #c4fa22;
 }
 
 .pbj,.voice,.travel{
     font-family: 'Vollkorn', serif;
     font-size: 20px;
+    margin-bottom: 2em;
     border-style: solid;
     border-color: #c53afc;
-    box-shadow: 6px 6px 5px #712290;
+    box-shadow: 7.5px 7.5px 5px #712290;
     padding: 10px 10px 10px 10px;
-    width: 30%;
+    width: 45%;
     transition: all ease 0.2s;
     background-color: #bbff99;
     background-image: linear-gradient(120deg, #bbff99 0%, #ffec99 37%, #ff9999 100%);
@@ -218,7 +237,7 @@ li.name a:hover:not(.active){
 
 .pbj:hover,.voice:hover,.travel:hover{
     transform: translateY(-5px);
-    box-shadow: 0px 10px 20px 2px #a539cf;
+    box-shadow: 1px 10px 35px 2px #b50af8;
 }
 
 .projectbox{
@@ -228,23 +247,24 @@ li.name a:hover:not(.active){
 .computerwerx{
     font-family: 'Vollkorn', serif;
     font-size: 20px;
+    margin-bottom: 2em;
     border-style: solid;
     border-color: #0080ff;
     padding: 10px 10px 10px 10px;
-    width: 50%;
-    box-shadow: 6px 6px 5px #0256aa;
+    width: 45%;
+    box-shadow: 7.5px 7.5px 5px #0256aa;
     transition: all ease 0.2s;
-    background-color: #f9c5d1;
-    background-image: linear-gradient(120deg, #f9c5d1 0%, #9795ef 74%);
+    background-color: #726cf8;
+    background-image: linear-gradient(315deg, #726cf8 0%, #e975a8 74%);
 }
 
 .computerwerx:hover{
     transform: translateY(-5px);
-    box-shadow: 0px 10px 20px 2px #1f84ea;
+    box-shadow: 1px 10px 35px 2px #1f84ea;
 }
 
 .workbox{
-    color: #1589FF;
+    color: #c0ef30;
 }
 
 .edubox li,.projectbox li,.workbox li,h3.edubox,h3.workbox{
@@ -262,15 +282,17 @@ li.name a:hover:not(.active){
 .box{
     font-family: 'Acme', sans-serif;
     font-size: x-large;
-    float: left;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    /* float: left; */
     padding: 2em;
+    margin-bottom: 1.5em;
     width: 300px;
     height: 300px;
     box-sizing: border-box;
-    background-color: #e4e4d9;
-    box-shadow: 0px 5px 10px 0px rgba(0,255,255,0.7);  
+    background-color: #efefd0;
+    box-shadow: 0px 5px 20px 2px rgba(0,255,255,0.7);  
     transition: all ease 0.2s;
+    /* border-style: solid; */
+    /* border-color: #000; */
 
     background-image: linear-gradient(175deg, rgba(0,0,0,0) 95%, #8da389 95%),
                       linear-gradient( 85deg, rgba(0,0,0,0) 95%, #8da389 95%),
@@ -288,7 +310,7 @@ li.name a:hover:not(.active){
 
 .box:hover{
     transform: translateY(-5px);
-    box-shadow: 0px 10px 20px 2px rgba(0,255,255,0.7);
+    box-shadow: 0px 10px 30px 2px rgba(0,255,255,0.7);
 }
 
 .accomplishments1{
