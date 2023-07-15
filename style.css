@@ -26,7 +26,7 @@ a{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
+    background-color: transparent;
 }
   
 li{
@@ -35,7 +35,7 @@ li{
   
 li a{
     display: block;
-    color: #fcabab;
+    color: #fcabe8;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -46,18 +46,24 @@ li a{
 li.name a{
     font-family: 'Kaushan Script', cursive;
     font-size: 40px;
-    color: #FF8080;
-    text-shadow: 2px 2px 4px red;
+    color: #d580ff;
+    text-shadow: 2.5px 2.5px 4px rgb(183, 4, 174);
 }
   
 .nav li a:hover{
-    background-color: #16F529;
-    color: black;
+    /* background-color: #16F529; */
+    color: palevioletred;
 }
 
 li.name a:hover:not(.active){
     background-color: black;
     color: #FF8080;
+    text-shadow: 2.5px 2.5px 4px red;
+}
+
+.heroimg{
+    height: 98vh;
+    /* background: url(https://wallpapercave.com/wp/wp5805427.gif); */
 }
 
 .name1{
@@ -66,7 +72,12 @@ li.name a:hover:not(.active){
     padding-left: 16px;
     padding-top: 20px;
     font-weight: 500;
-    color: #d7ff39;
+    color: #04fcf4;
+}
+
+.introline{
+    padding-right: 10px;
+    margin: auto;
 }
 
 .intro{
@@ -75,24 +86,24 @@ li.name a:hover:not(.active){
     flex-direction: row-reverse;
     padding-top: 10px;
     padding-bottom: 10px;
+    height: 75vh;
+}
+
+.imageintro{
+    margin: auto;
+    text-align: center;
 }
 
 .intro1{
     font-family: 'Vollkorn', serif;
     font-size: 30px;
-    padding-top: 15px;
     padding-left: 16px;
-    font-weight: 300;
     text-align: justify;
-    color: #e0e097;
+    color: #abf3ce;
 }
 
 .flex1{
     flex: 1;
-}
-
-.introline{
-    margin-right: 50px;
 }
 
 .profiles{
@@ -110,7 +121,7 @@ li.name a:hover:not(.active){
     align-items: center;
     justify-content: center;
     margin-right: 10px;
-    /* transition: background-color 0.3s; */
+    transition: all ease 0.2s;
 }
 
 .fa-github,.fa-linkedin,.fa-hackerrank,.fa-instagram,.fa-envelope{
@@ -118,9 +129,9 @@ li.name a:hover:not(.active){
     font-size: 48px;
 }
 
-/* .circle:hover{
-    background-color: #000000;
-} */
+.circle:hover{
+    transform: translateY(-5px);
+}
 
 .skills{
     display: flex;
@@ -128,9 +139,8 @@ li.name a:hover:not(.active){
 }
 
 .skillimg{
-    margin-top: 17.5px;
-    margin-right: 50px;
-    margin-left: 45px;
+    margin: auto;
+    text-align: center;
 }
 
 .icontext{
@@ -144,8 +154,10 @@ li.name a:hover:not(.active){
     border-color: #73ff00;
     padding: 10px 10px 10px 10px;
     transition: all ease 0.2s;
-    background-color: #0d0a0b;
-    background-image: linear-gradient(315deg, #0d0a0b 0%, #009fc2 74%);
+    /* background-color: #0d0a0b;
+    background-image: linear-gradient(315deg, #0d0a0b 0%, #009fc2 74%); */
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #8d0b96 10%, #5f3471 40%, #0a086c 74%);
 }
 
 .h1head{
@@ -171,6 +183,7 @@ li.name a:hover:not(.active){
     display: inline-block;
     height: 100px;
     width: 100px;
+    padding-right: 1em;
 }
 
 .dot1 p{
