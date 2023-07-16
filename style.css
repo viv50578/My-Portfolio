@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Kaushan+Script&family=Vollkorn&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@600&family=Parisienne&family=Roboto+Slab&family=Ubuntu&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     color: white;
 }
@@ -14,9 +18,11 @@ a{
 }
 
 #preloader{
-    background: url(https://thumbs.gfycat.com/EagerGentleAxolotl-max-1mb.gif);
-    height: 100%;
-    width: 100%;
+    background: #000 url(https://thumbs.gfycat.com/EagerGentleAxolotl-max-1mb.gif) center center;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
     position: fixed;
     z-index: 100;
 }
@@ -329,17 +335,22 @@ div.acc{
     padding-top: 20px;
 }
 
+/* ###Loader### */
 
 .loadimg{
     display: flex;
     margin-left: auto;
     margin-right: auto;
     padding-top: 6em;
+    height: 25em;
+    width: 32em;
+    z-index: 100;
 }
 
 .figname{
-    font-size: 40px;
+    font-size: 2.5em;
     font-family: 'Merienda', cursive;
     text-align: center;
     color: #16F529;
+    z-index: 100;
 }
