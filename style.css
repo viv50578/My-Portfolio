@@ -17,16 +17,6 @@ a{
     text-decoration: none;
 }
 
-#preloader{
-    background: #000 url(https://thumbs.gfycat.com/EagerGentleAxolotl-max-1mb.gif) center center;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    position: fixed;
-    z-index: 100;
-}
-
 .nav{
     list-style-type: none;
     margin: 0;
@@ -338,11 +328,25 @@ div.acc{
 
 /* ###Loader### */
 
-.loadimg{
+#preloader{
+    background: #000 url(https://thumbs.gfycat.com/EagerGentleAxolotl-max-1mb.gif) center center;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+}
+
+.figload{
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 6em;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.loadimg{
     height: 25em;
     width: 32em;
     z-index: 100;
@@ -351,7 +355,6 @@ div.acc{
 .figname{
     font-size: 2.5em;
     font-family: 'Merienda', cursive;
-    text-align: center;
     color: #16F529;
     z-index: 100;
 }
@@ -360,13 +363,30 @@ div.acc{
 
 .hidden{
     opacity: 0;
-    transition: all 0.75s;
+    transition: 1s;
     filter: blur(0.3em);
-    /* transform: translateX(-30%); */
+    /* transform: translateX(-20%); */
+    /* transition-delay: calc(100ms*var(--order)); */
 }
 
 .show{
     opacity: 1;
     filter: blur(0);
     /* transform: translateX(0); */
+}
+
+.hidacc:nth-child(2){
+    transition-delay: 100ms;
+}
+
+.hidacc:nth-child(3){
+    transition-delay: 200ms;
+}
+
+.hidacc:nth-child(4){
+    transition-delay: 300ms;
+}
+
+.hidacc:nth-child(5){
+    transition-delay: 400ms;
 }
