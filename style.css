@@ -390,3 +390,35 @@ div.acc{
 .hidacc:nth-child(5){
     transition-delay: 400ms;
 }
+
+/* ###Responsive### */
+
+@media screen and (max-width: 1275px){
+    .intro,.skills{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .kj,.pace,.dav{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1125px){
+    .kj,.pace,.dav{
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 1020px){
+    .kj,.pace,.dav,.pbj,.travel,.voice,.computerwerx{
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .kj,.pace,.dav{
+        width: 400px;
+    }
+}
