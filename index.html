@@ -21,20 +21,20 @@
         </div>
     </div>
 
+    <div class="navbar" id="navbar">
+        <a href="index.html" class="name">Vivek Iyer</a>
+        <a href="index.html#skills">Skills</a>
+        <a href="index.html#education">Education</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#experience">Experience</a>
+        <a href="index.html#accomplishments">Accomplishments</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa-solid fa-bars" style="color: #fcabe8;"></i></a>
+    </div>
+    
+    <br>
+    <br>
+    
     <div class="heroimg">
-        <div class="navbar">
-            <ul class="nav">
-                <li class="name"><a href="index.html">Vivek Iyer</a></li>
-                <li style="float:right"><a href="index.html#accomplishments">Accomplishments</a></li>
-                <li style="float:right"><a href="index.html#experience">Experience</a></li>
-                <li style="float:right"><a href="index.html#projects">Projects</a></li>
-                <li style="float:right"><a href="index.html#education">Education</a></li>
-                <li style="float:right"><a href="index.html#skills">Skills</a></li>
-            </ul>
-        </div>
-
-        <br>
-
         <section class="hidden">
             <div class="intro">
                 <div class="flex1 imageintro">
@@ -261,6 +261,17 @@
             loader.style.display="none";
             // document.body.style.overflow = "unset";
         })
+    </script>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("navbar");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        }
     </script>
 
 </body>
