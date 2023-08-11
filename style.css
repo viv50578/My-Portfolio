@@ -34,10 +34,18 @@ a{
     display: block;
     color: #fcabe8;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px;
     text-decoration: none;
     font-size: 35px;
     font-family: 'Acme', sans-serif;
+}
+
+/* a.navr{
+    float: right;
+} */
+
+span.right{
+    float: right;
 }
 
 a.name{
@@ -45,6 +53,7 @@ a.name{
     font-size: 40px;
     color: #d580ff;
     text-shadow: 2.5px 2.5px 4px rgb(183, 4, 174);
+    padding: 5px;
 }
   
 .navbar a:hover{
@@ -164,7 +173,7 @@ a.name:hover:not(.active){
     /* text-shadow: 2px 2px 4px #05fba9; */
 }
 
-.skills,.education,.projects,.experience,.accomplishments{
+.skills,.achievements,.education,.projects,.experience,.certifications{
     padding-left: 16px;
 }
 
@@ -192,6 +201,32 @@ a.name:hover:not(.active){
     margin-left: auto;
     margin-right: auto;
     margin-top: 13%;
+}
+
+.box1{
+    font-family: 'Acme', sans-serif;
+    font-size: x-large;
+    padding: 2em;
+    margin-bottom: 1.5em;
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    background-color: #efefd0;
+    box-shadow: 0px 5px 20px 2px rgba(0,255,255,0.7);  
+    transition: all ease 0.2s;
+
+    background-image: linear-gradient(175deg, rgba(0,0,0,0) 95%, #8da389 95%),
+                      linear-gradient( 85deg, rgba(0,0,0,0) 95%, #8da389 95%),
+                      linear-gradient(175deg, rgba(0,0,0,0) 90%, #b4b07f 90%),
+                      linear-gradient( 85deg, rgba(0,0,0,0) 92%, #b4b07f 92%),
+                      linear-gradient(175deg, rgba(0,0,0,0) 85%, #c5a68e 85%),
+                      linear-gradient( 85deg, rgba(0,0,0,0) 89%, #c5a68e 89%),
+                      linear-gradient(175deg, rgba(0,0,0,0) 80%, #ba9499 80%),
+                      linear-gradient( 85deg, rgba(0,0,0,0) 86%, #ba9499 86%),
+                      linear-gradient(175deg, rgba(0,0,0,0) 75%, #9f8fa4 75%),
+                      linear-gradient( 85deg, rgba(0,0,0,0) 83%, #9f8fa4 83%),
+                      linear-gradient(175deg, rgba(0,0,0,0) 70%, #74a6ae 70%),
+                      linear-gradient( 85deg, rgba(0,0,0,0) 80%, #74a6ae 80%);
 }
 
 .education,.experience,.projects{
@@ -279,7 +314,7 @@ a.name:hover:not(.active){
     padding: 10px;
 }
 
-.box p{
+.box p,.box1 p{
     color: black;
 }
 
@@ -312,7 +347,7 @@ a.name:hover:not(.active){
                       linear-gradient( 85deg, rgba(0,0,0,0) 80%, #74a6ae 80%);
 }
 
-.box:hover{
+.box:hover,.box1:hover{
     transform: translateY(-5px);
     box-shadow: 0px 10px 30px 2px rgba(0,255,255,0.7);
 }
