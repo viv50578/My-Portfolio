@@ -203,32 +203,6 @@ a.name:hover:not(.active){
     margin-top: 13%;
 }
 
-.box1{
-    font-family: 'Acme', sans-serif;
-    font-size: x-large;
-    padding: 2em;
-    margin-bottom: 1.5em;
-    width: 300px;
-    height: 300px;
-    box-sizing: border-box;
-    background-color: #efefd0;
-    box-shadow: 0px 5px 20px 2px rgba(0,255,255,0.7);  
-    transition: all ease 0.2s;
-
-    background-image: linear-gradient(175deg, rgba(0,0,0,0) 95%, #8da389 95%),
-                      linear-gradient( 85deg, rgba(0,0,0,0) 95%, #8da389 95%),
-                      linear-gradient(175deg, rgba(0,0,0,0) 90%, #b4b07f 90%),
-                      linear-gradient( 85deg, rgba(0,0,0,0) 92%, #b4b07f 92%),
-                      linear-gradient(175deg, rgba(0,0,0,0) 85%, #c5a68e 85%),
-                      linear-gradient( 85deg, rgba(0,0,0,0) 89%, #c5a68e 89%),
-                      linear-gradient(175deg, rgba(0,0,0,0) 80%, #ba9499 80%),
-                      linear-gradient( 85deg, rgba(0,0,0,0) 86%, #ba9499 86%),
-                      linear-gradient(175deg, rgba(0,0,0,0) 75%, #9f8fa4 75%),
-                      linear-gradient( 85deg, rgba(0,0,0,0) 83%, #9f8fa4 83%),
-                      linear-gradient(175deg, rgba(0,0,0,0) 70%, #74a6ae 70%),
-                      linear-gradient( 85deg, rgba(0,0,0,0) 80%, #74a6ae 80%);
-}
-
 .education,.experience,.projects{
     display: flex;
     justify-content: space-around;
@@ -318,7 +292,7 @@ a.name:hover:not(.active){
     color: black;
 }
 
-.box{
+.box,.box1{
     font-family: 'Acme', sans-serif;
     font-size: x-large;
     /* float: left; */
@@ -347,9 +321,31 @@ a.name:hover:not(.active){
                       linear-gradient( 85deg, rgba(0,0,0,0) 80%, #74a6ae 80%);
 }
 
-.box:hover,.box1:hover{
+.box:hover{
     transform: translateY(-5px);
     box-shadow: 0px 10px 30px 2px rgba(0,255,255,0.7);
+}
+
+.box1{
+    background-color: #ececb3;
+    box-shadow: 0px 5px 20px 2px rgb(255, 200, 0);
+    background-image: linear-gradient(175deg, rgba(0, 0, 0, 0) 95%, #ffcc80 95%),
+                  linear-gradient(85deg, rgba(0, 0, 0, 0) 95%, #ffcc80 95%),
+                  linear-gradient(175deg, rgba(0, 0, 0, 0) 90%, #ffb74d 90%),
+                  linear-gradient(85deg, rgba(0, 0, 0, 0) 92%, #ffb74d 92%),
+                  linear-gradient(175deg, rgba(0, 0, 0, 0) 85%, #ff8a65 85%),
+                  linear-gradient(85deg, rgba(0, 0, 0, 0) 89%, #ff8a65 89%),
+                  linear-gradient(175deg, rgba(0, 0, 0, 0) 80%, #ff7043 80%),
+                  linear-gradient(85deg, rgba(0, 0, 0, 0) 86%, #ff7043 86%),
+                  linear-gradient(175deg, rgba(0, 0, 0, 0) 75%, #ff6e40 75%),
+                  linear-gradient(85deg, rgba(0, 0, 0, 0) 83%, #ff6e40 83%),
+                  linear-gradient(175deg, rgba(0, 0, 0, 0) 70%, #ff8f00 70%),
+                  linear-gradient(85deg, rgba(0, 0, 0, 0) 80%, #ff8f00 80%);
+}
+
+.box1:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 30px 2px rgb(255, 200, 0);
 }
 
 .accomplishments1{
@@ -477,6 +473,6 @@ div.acc{
     .navbar.responsive a{
       float: none;
       display: block;
-      text-align: left;
+      text-align: center;
     }
 }
