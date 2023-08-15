@@ -425,9 +425,86 @@ div.acc{
 
 /* ###Responsive### */
 
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1200px){
     .intro,.skills{
         flex-direction: column;
+    }
+    img.introcomp{
+        padding-top: 5em;
+    }
+    .name1{
+        font-size: 35px;
+    }
+    .intro1{
+        font-size: 26.25px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    img.introcomp{
+        height: 383.69;
+        width: 576px;
+        padding-top: 7.5em;
+    }
+    .name1{
+        font-size: 33px;
+    }
+    .intro1{
+        font-size: 24.75px;
+    }
+    .skillcircle{
+        height: 70px;
+        width: 70px;
+    }
+    .skillsicon{
+        margin-right: 0.35em;
+    }
+    p.icontext{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 805px){
+    img.introcomp{
+        height: 350.38px;
+        width: 526px;
+        padding-top: 8.5em;
+    }
+    img.laptop{
+        height: 350px;
+        width: 502.64px;
+    }
+    .name1{
+        font-size: 30px;
+    }
+    .intro1{
+        font-size: 22.5px;
+    }
+    .skillcircle{
+        height: 65px;
+        width: 65px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    img.introcomp{
+        height: 317.07px;
+        width: 476px;
+        padding-top: 8.5em;
+    }
+    img.laptop{
+        height: 300px;
+        width: 430.83px;
+    }
+    .name1{
+        font-size: 27.5px;
+    }
+    .intro1{
+        font-size: 20.625px;
+    }
+    .skillcircle{
+        height: 60px;
+        width: 60px;
     }
 }
 
@@ -450,10 +527,24 @@ div.acc{
 }
 
 @media screen and (max-width: 600px){
-    .kj,.pace,.dav{
+    .kj,.pace,.dav,.computerwerx{
         width: 400px;
     }
+    .pbj,.travel,.voice{
+        width: 450px;
+    }
 }
+
+/* @media screen and (max-width: 600px){
+    .kj,.pace,.dav,.computerwerx{
+        width: 400px;
+    }
+    .pbj,.travel,.voice{
+        width: 450px;
+    }
+} */
+
+/* ###Navbar### */
 
 @media screen and (max-width: 1300px) {
     .navbar a:not(:first-child) {display: none;}
