@@ -384,11 +384,15 @@ div.acc{
     z-index: 100;
 }
 
-.figname{
+.figname,.figname1{
     font-size: 2.5em;
     font-family: 'Merienda', cursive;
     color: #16F529;
     z-index: 100;
+}
+
+.figname1{
+    font-size: 1.5em;
 }
 
 /* ###ScrollAnimations### */
@@ -429,7 +433,7 @@ div.acc{
     .intro,.skills{
         flex-direction: column;
     }
-    img.introcomp{
+    .introcomp{
         padding-top: 5em;
     }
     .name1{
@@ -441,7 +445,7 @@ div.acc{
 }
 
 @media screen and (max-width: 992px){
-    img.introcomp{
+    .introcomp{
         height: 383.69;
         width: 576px;
         padding-top: 7.5em;
@@ -465,12 +469,12 @@ div.acc{
 }
 
 @media screen and (max-width: 805px){
-    img.introcomp{
+    .introcomp{
         height: 350.38px;
         width: 526px;
         padding-top: 8.5em;
     }
-    img.laptop{
+    .laptop{
         height: 350px;
         width: 502.64px;
     }
@@ -487,12 +491,12 @@ div.acc{
 }
 
 @media screen and (max-width: 700px){
-    img.introcomp{
+    .introcomp{
         height: 317.07px;
         width: 476px;
         padding-top: 8.5em;
     }
-    img.laptop{
+    .laptop{
         height: 300px;
         width: 430.83px;
     }
@@ -526,23 +530,53 @@ div.acc{
     }
 }
 
-@media screen and (max-width: 600px){
-    .kj,.pace,.dav,.computerwerx{
-        width: 400px;
+@media screen and (max-width: 800px){
+    .kj,.pace,.dav,.pbj,.travel,.voice,.computerwerx{
+        width: 550px;
     }
-    .pbj,.travel,.voice{
+}
+
+@media screen and (max-width: 600px){
+    .kj,.pace,.dav,.pbj,.travel,.voice,.computerwerx{
         width: 450px;
     }
 }
 
-/* @media screen and (max-width: 600px){
-    .kj,.pace,.dav,.computerwerx{
-        width: 400px;
+@media screen and (max-width: 500px){
+    .kj,.pace,.dav,.pbj,.travel,.voice,.computerwerx{
+        width: 350px;
     }
-    .pbj,.travel,.voice{
-        width: 450px;
+    .pbjimg,.voiceimg{
+        height: 160.06px;
+        width: 267.51px;
     }
-} */
+    .travelimg{
+        height: 160.06px;
+        width: 81.4px;
+    }
+    .introcomp{
+        height: 237.8px;
+        width: 357px;
+        /* padding-top: 8.5em; */
+    }
+    .laptop{
+        height: 225px;
+        width: 323.12px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    img.loadimg{
+        height: 300px;
+        width: 384px;
+    }
+    .figname{
+        font-size: 1.75em;
+    }
+    .figname1{
+        font-size: 1.05em;
+    }
+}
 
 /* ###Navbar### */
 
