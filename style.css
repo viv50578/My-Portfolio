@@ -117,6 +117,7 @@ a.name:hover:not(.active){
     padding-top: 30px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .circle{
@@ -127,6 +128,7 @@ a.name:hover:not(.active){
     align-items: center;
     justify-content: center;
     margin-right: 10px;
+    margin-bottom: 10px;
     transition: all ease 0.2s;
 }
 
@@ -155,7 +157,7 @@ a.name:hover:not(.active){
 
 .skillsicon{
     flex: 1;
-    margin-right: 1.5em;
+    margin-right: 1em;
     border-style: solid;
     border-color: #73ff00;
     padding: 10px 10px 10px 10px;
@@ -431,7 +433,16 @@ div.acc{
 
 @media screen and (max-width: 1200px){
     .intro,.skills{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
+    }
+    .skills{
+        padding-left: 0px;
+    }
+    .skillsicon{
+        margin-left: 16px;
     }
     .introcomp{
         padding-top: 5em;
@@ -448,7 +459,6 @@ div.acc{
     .introcomp{
         height: 383.69;
         width: 576px;
-        padding-top: 7.5em;
     }
     .name1{
         font-size: 33px;
@@ -460,8 +470,11 @@ div.acc{
         height: 70px;
         width: 70px;
     }
-    .skillsicon{
-        margin-right: 0.35em;
+    .btstrap{
+        width: 84px;
+    }
+    .dot1{
+        padding-right: 0px;
     }
     p.icontext{
         font-size: 14px;
@@ -472,7 +485,6 @@ div.acc{
     .introcomp{
         height: 350.38px;
         width: 526px;
-        padding-top: 8.5em;
     }
     .laptop{
         height: 350px;
@@ -483,10 +495,14 @@ div.acc{
     }
     .intro1{
         font-size: 22.5px;
+        padding-right: 16px;
     }
     .skillcircle{
         height: 65px;
         width: 65px;
+    }
+    .btstrap{
+        width: 78px;
     }
 }
 
@@ -494,21 +510,23 @@ div.acc{
     .introcomp{
         height: 317.07px;
         width: 476px;
-        padding-top: 8.5em;
     }
     .laptop{
         height: 300px;
         width: 430.83px;
     }
-    .name1{
+    /* .name1{
         font-size: 27.5px;
     }
     .intro1{
         font-size: 20.625px;
-    }
+    } */
     .skillcircle{
         height: 60px;
         width: 60px;
+    }
+    .btstrap{
+        width: 72px;
     }
 }
 
@@ -557,11 +575,23 @@ div.acc{
     .introcomp{
         height: 237.8px;
         width: 357px;
-        /* padding-top: 8.5em; */
+        padding-top: 5em;
     }
     .laptop{
-        height: 225px;
-        width: 323.12px;
+        height: 247.5px;
+        width: 355.43px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .introcomp{
+        height: 199.83px;
+        width: 300px;
+        padding-top: 5em;
+    }
+    .laptop{
+        height: 208.9px;
+        width: 300px;
     }
 }
 
