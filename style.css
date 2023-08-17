@@ -40,11 +40,7 @@ a{
     font-family: 'Acme', sans-serif;
 }
 
-/* a.navr{
-    float: right;
-} */
-
-span.right{
+.right{
     float: right;
 }
 
@@ -445,7 +441,7 @@ div.acc{
         margin-left: 16px;
     }
     .introcomp{
-        padding-top: 5em;
+        padding-top: 3.5em;
     }
     .name1{
         font-size: 35px;
@@ -515,12 +511,6 @@ div.acc{
         height: 300px;
         width: 430.83px;
     }
-    /* .name1{
-        font-size: 27.5px;
-    }
-    .intro1{
-        font-size: 20.625px;
-    } */
     .skillcircle{
         height: 60px;
         width: 60px;
@@ -545,6 +535,7 @@ div.acc{
 @media screen and (max-width: 1020px){
     .kj,.pace,.dav,.pbj,.travel,.voice,.computerwerx{
         width: 700px;
+        margin-right: 16px;
     }
 }
 
@@ -575,7 +566,7 @@ div.acc{
     .introcomp{
         height: 237.8px;
         width: 357px;
-        padding-top: 5em;
+        padding-top: 3.5em;
     }
     .laptop{
         height: 247.5px;
