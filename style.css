@@ -442,6 +442,7 @@ div.acc{
     }
     .introcomp{
         padding-top: 5em;
+        z-index: 0;
     }
     .name1{
         font-size: 35px;
@@ -634,6 +635,10 @@ div.acc{
       float: right;
       display: block;
     }
+    .navbar{
+        position: relative;
+        z-index: 100;
+    }
 }
   
 @media screen and (max-width: 1230px) {
@@ -651,6 +656,7 @@ div.acc{
     .navbar.responsive{
         display: grid;
         align-items: center;
+        z-index: 100;
     }
     .navbar.responsive a:not(.icon) {
         display: block;
