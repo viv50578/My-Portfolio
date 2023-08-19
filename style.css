@@ -441,7 +441,7 @@ div.acc{
         margin-left: 16px;
     }
     .introcomp{
-        padding-top: 3.5em;
+        padding-top: 5em;
     }
     .name1{
         font-size: 35px;
@@ -566,7 +566,7 @@ div.acc{
     .introcomp{
         height: 237.8px;
         width: 357px;
-        padding-top: 3.5em;
+        padding-top: 5em;
     }
     .laptop{
         height: 247.5px;
@@ -586,7 +586,7 @@ div.acc{
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 420px){
     .introcomp{
         height: 199.83px;
         width: 300px;
@@ -595,6 +595,19 @@ div.acc{
     .laptop{
         height: 208.9px;
         width: 300px;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .laptop{
+        height: 174.08px;
+        width: 250px;
+    }
+    .name1{
+        font-size: 25px;
+    }
+    .intro1{
+        font-size: 18.75px;
     }
 }
 
