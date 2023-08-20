@@ -610,6 +610,22 @@ div.acc{
     .intro1{
         font-size: 18.75px;
     }
+    .box,.box1{
+        width: 275px;
+        height: 275px;
+    }
+    .box p,.box1 p{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .name1{
+        font-size: 20px;
+    }
+    .intro1{
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 700px){
@@ -637,7 +653,7 @@ div.acc{
     }
     .navbar{
         position: relative;
-        z-index: 100;
+        z-index: 10;
     }
 }
   
@@ -656,7 +672,7 @@ div.acc{
     .navbar.responsive{
         display: grid;
         align-items: center;
-        z-index: 100;
+        z-index: 10;
     }
     .navbar.responsive a:not(.icon) {
         display: block;
