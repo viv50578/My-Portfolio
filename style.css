@@ -63,11 +63,6 @@ a.name:hover:not(.active){
     text-shadow: 2.5px 2.5px 4px red;
 }
 
-.heroimg{
-    height: 98vh;
-    /* background: url(https://wallpapercave.com/wp/wp5805427.gif); */
-}
-
 .name1{
     font-family: 'Vollkorn', serif;
     font-size: 40px;
@@ -88,7 +83,7 @@ a.name:hover:not(.active){
     flex-direction: row-reverse;
     padding-top: 10px;
     padding-bottom: 10px;
-    height: 75vh;
+    /* height: 75vh; */
 }
 
 .imageintro{
@@ -441,7 +436,6 @@ div.acc{
         margin-left: 16px;
     }
     .introcomp{
-        padding-top: 5em;
         z-index: 0;
     }
     .name1{
@@ -454,7 +448,7 @@ div.acc{
 
 @media screen and (max-width: 992px){
     .introcomp{
-        height: 383.69;
+        height: 383.69px;
         width: 576px;
     }
     .name1{
@@ -567,7 +561,6 @@ div.acc{
     .introcomp{
         height: 237.8px;
         width: 357px;
-        padding-top: 5em;
     }
     .laptop{
         height: 247.5px;
@@ -591,7 +584,6 @@ div.acc{
     .introcomp{
         height: 199.83px;
         width: 300px;
-        padding-top: 5em;
     }
     .laptop{
         height: 208.9px;
@@ -619,6 +611,13 @@ div.acc{
     }
 }
 
+@media screen and (max-width: 325px){
+    .introcomp{
+        height: 166.52px;
+        width: 250px;
+    }
+}
+
 @media screen and (max-width: 300px){
     .name1{
         font-size: 20px;
@@ -638,6 +637,15 @@ div.acc{
     }
     .figname1{
         font-size: 1.05em;
+    }
+}
+
+@media screen and (min-width: 1201px){
+    .heroimg{
+        height: 90vh;
+    }
+    .intro{
+        height: 75vh;
     }
 }
 
