@@ -290,7 +290,7 @@ a.name:hover:not(.active){
     font-size: x-large;
     /* float: left; */
     padding: 2em;
-    margin-bottom: 1.5em;
+    margin-right: 0.5em;
     width: 300px;
     height: 300px;
     box-sizing: border-box;
@@ -354,7 +354,7 @@ div.acc{
 /* ###Loader### */
 
 #preloader{
-    background: #000 url(https://thumbs.gfycat.com/EagerGentleAxolotl-max-1mb.gif) center center;
+    background: #000 url(https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif) center center;
     top: 0;
     left: 0;
     height: 100vh;
@@ -566,6 +566,13 @@ div.acc{
         height: 247.5px;
         width: 355.43px;
     }
+    .circle{
+        height: 50px;
+        width: 50px;
+    }
+    .fa-github,.fa-linkedin,.fa-hackerrank,.fa-instagram,.fa-envelope{
+        font-size: 36px;
+    }
 }
 
 @media screen and (max-width: 484px){
@@ -646,6 +653,12 @@ div.acc{
     }
     .intro{
         height: 75vh;
+    }
+}
+
+@media screen and (min-width: 630px){
+    .box,.box1{
+        margin-right: 1em;
     }
 }
 
