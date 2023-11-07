@@ -227,7 +227,7 @@ a.name:hover:not(.active){
     color: #c4fa22;
 }
 
-.pbj,.voice,.travel{
+.pbj,.voice,.travel,.pageturner{
     font-family: 'Vollkorn', serif;
     font-size: 20px;
     margin-bottom: 2em;
@@ -241,7 +241,7 @@ a.name:hover:not(.active){
     background-image: linear-gradient(120deg, #bbff99 0%, #ffec99 37%, #ff9999 100%);
 }
 
-.pbj:hover,.voice:hover,.travel:hover{
+.pbj:hover,.voice:hover,.travel:hover,.pageturner:hover{
     transform: translateY(-5px);
     box-shadow: 1px 10px 35px 2px #b50af8;
 }
@@ -528,26 +528,26 @@ div.acc{
 }
 
 @media screen and (max-width: 1020px){
-    .kj,.pace,.dav,.pbj,.travel,.voice,.computerwerx{
+    .kj,.pace,.dav,.pbj,.travel,.voice,.pageturner,.computerwerx{
         width: 700px;
         margin-right: 16px;
     }
 }
 
 @media screen and (max-width: 800px){
-    .kj,.pace,.dav,.pbj,.travel,.voice,.computerwerx{
+    .kj,.pace,.dav,.pbj,.travel,.voice,.pageturner,.computerwerx{
         width: 550px;
     }
 }
 
 @media screen and (max-width: 600px){
-    .kj,.pace,.dav,.pbj,.travel,.voice,.computerwerx{
+    .kj,.pace,.dav,.pbj,.travel,.voice,.pageturner,.computerwerx{
         width: 450px;
     }
 }
 
 @media screen and (max-width: 500px){
-    .kj,.pace,.dav,.pbj,.travel,.voice,.computerwerx{
+    .kj,.pace,.dav,.pbj,.travel,.voice,.pageturner,.computerwerx{
         width: 350px;
     }
     .pbjimg,.voiceimg{
@@ -558,6 +558,10 @@ div.acc{
         height: 160.06px;
         width: 81.4px;
     }
+    /* .pageimg{
+        height: 160.06px;
+        width: 160.06px;
+    } */
     .introcomp{
         height: 237.8px;
         width: 357px;
